@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/color-picker
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStart:
+  ApplicationStop:
